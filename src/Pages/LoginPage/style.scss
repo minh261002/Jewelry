@@ -1,0 +1,21 @@
+.login-page{
+    .container{
+        h3{
+            font-weight: 500;
+            text-align: center;
+            margin: 24px 0;
+        }
+    }
+
+    @media only screen and (max-width: 768px){
+        .container{
+            h3{
+                font-size: 24px;
+            }
+
+            .form-custom{
+                width: 100%;
+            }
+        }
+    }
+}

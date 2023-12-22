@@ -1,0 +1,51 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root{
+    --primary-color: #2a4e49;
+    --black-color:#000;
+    --white-color:#fff;
+  }
+
+  html, body{
+    font-family: 'Popins', sans-serif;
+  }
+
+  .form-control:focus{
+    border-color: #333 !important;
+    box-shadow: none !important;
+  } 
+
+  .form-custom{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .err,.error-message{
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 4px 0;
+  }
+
+  .success{
+    color: green;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 4px 0;
+  }
+
+  .btn-custom{
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    padding: 8px 0;
+    font-weight: 500;;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
